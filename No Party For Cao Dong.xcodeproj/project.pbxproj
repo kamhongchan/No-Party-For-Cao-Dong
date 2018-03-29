@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E81BDF2206B35C300DF452B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81BDF1206B35C300DF452B /* AppDelegate.swift */; };
+		8E81BDF4206B35C300DF452B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81BDF3206B35C300DF452B /* ViewController.swift */; };
+		8E81BDF7206B35C300DF452B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E81BDF5206B35C300DF452B /* Main.storyboard */; };
+		8E81BDF9206B35C300DF452B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E81BDF8206B35C300DF452B /* Assets.xcassets */; };
+		8E81BDFC206B35C300DF452B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E81BDFA206B35C300DF452B /* LaunchScreen.storyboard */; };
+		8E81BE07206B35C400DF452B /* No_Party_For_Cao_DongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81BE06206B35C400DF452B /* No_Party_For_Cao_DongTests.swift */; };
+		8E81BE12206B35C400DF452B /* No_Party_For_Cao_DongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81BE11206B35C400DF452B /* No_Party_For_Cao_DongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E81BE03206B35C400DF452B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E81BDE6206B35C300DF452B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E81BDED206B35C300DF452B;
+			remoteInfo = "No Party For Cao Dong";
+		};
+		8E81BE0E206B35C400DF452B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E81BDE6206B35C300DF452B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E81BDED206B35C300DF452B;
+			remoteInfo = "No Party For Cao Dong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E81BDEE206B35C300DF452B /* No Party For Cao Dong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Party For Cao Dong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E81BDF1206B35C300DF452B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E81BDF3206B35C300DF452B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E81BDF6206B35C300DF452B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E81BDF8206B35C300DF452B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E81BDFB206B35C300DF452B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E81BDFD206B35C300DF452B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E81BE02206B35C400DF452B /* No Party For Cao DongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "No Party For Cao DongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E81BE06206B35C400DF452B /* No_Party_For_Cao_DongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = No_Party_For_Cao_DongTests.swift; sourceTree = "<group>"; };
+		8E81BE08206B35C400DF452B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E81BE0D206B35C400DF452B /* No Party For Cao DongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "No Party For Cao DongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E81BE11206B35C400DF452B /* No_Party_For_Cao_DongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = No_Party_For_Cao_DongUITests.swift; sourceTree = "<group>"; };
+		8E81BE13206B35C400DF452B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E81BDEB206B35C300DF452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E81BDFF206B35C400DF452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E81BE0A206B35C400DF452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E81BDE5206B35C300DF452B = {
+			isa = PBXGroup;
+			children = (
+				8E81BDF0206B35C300DF452B /* No Party For Cao Dong */,
+				8E81BE05206B35C400DF452B /* No Party For Cao DongTests */,
+				8E81BE10206B35C400DF452B /* No Party For Cao DongUITests */,
+				8E81BDEF206B35C300DF452B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E81BDEF206B35C300DF452B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E81BDEE206B35C300DF452B /* No Party For Cao Dong.app */,
+				8E81BE02206B35C400DF452B /* No Party For Cao DongTests.xctest */,
+				8E81BE0D206B35C400DF452B /* No Party For Cao DongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E81BDF0206B35C300DF452B /* No Party For Cao Dong */ = {
+			isa = PBXGroup;
+			children = (
+				8E81BDF1206B35C300DF452B /* AppDelegate.swift */,
+				8E81BDF3206B35C300DF452B /* ViewController.swift */,
+				8E81BDF5206B35C300DF452B /* Main.storyboard */,
+				8E81BDF8206B35C300DF452B /* Assets.xcassets */,
+				8E81BDFA206B35C300DF452B /* LaunchScreen.storyboard */,
+				8E81BDFD206B35C300DF452B /* Info.plist */,
+			);
+			path = "No Party For Cao Dong";
+			sourceTree = "<group>";
+		};
+		8E81BE05206B35C400DF452B /* No Party For Cao DongTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E81BE06206B35C400DF452B /* No_Party_For_Cao_DongTests.swift */,
+				8E81BE08206B35C400DF452B /* Info.plist */,
+			);
+			path = "No Party For Cao DongTests";
+			sourceTree = "<group>";
+		};
+		8E81BE10206B35C400DF452B /* No Party For Cao DongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E81BE11206B35C400DF452B /* No_Party_For_Cao_DongUITests.swift */,
+				8E81BE13206B35C400DF452B /* Info.plist */,
+			);
+			path = "No Party For Cao DongUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E81BDED206B35C300DF452B /* No Party For Cao Dong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E81BE16206B35C400DF452B /* Build configuration list for PBXNativeTarget "No Party For Cao Dong" */;
+			buildPhases = (
+				8E81BDEA206B35C300DF452B /* Sources */,
+				8E81BDEB206B35C300DF452B /* Frameworks */,
+				8E81BDEC206B35C300DF452B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "No Party For Cao Dong";
+			productName = "No Party For Cao Dong";
+			productReference = 8E81BDEE206B35C300DF452B /* No Party For Cao Dong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E81BE01206B35C400DF452B /* No Party For Cao DongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E81BE19206B35C400DF452B /* Build configuration list for PBXNativeTarget "No Party For Cao DongTests" */;
+			buildPhases = (
+				8E81BDFE206B35C400DF452B /* Sources */,
+				8E81BDFF206B35C400DF452B /* Frameworks */,
+				8E81BE00206B35C400DF452B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E81BE04206B35C400DF452B /* PBXTargetDependency */,
+			);
+			name = "No Party For Cao DongTests";
+			productName = "No Party For Cao DongTests";
+			productReference = 8E81BE02206B35C400DF452B /* No Party For Cao DongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E81BE0C206B35C400DF452B /* No Party For Cao DongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E81BE1C206B35C400DF452B /* Build configuration list for PBXNativeTarget "No Party For Cao DongUITests" */;
+			buildPhases = (
+				8E81BE09206B35C400DF452B /* Sources */,
+				8E81BE0A206B35C400DF452B /* Frameworks */,
+				8E81BE0B206B35C400DF452B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E81BE0F206B35C400DF452B /* PBXTargetDependency */,
+			);
+			name = "No Party For Cao DongUITests";
+			productName = "No Party For Cao DongUITests";
+			productReference = 8E81BE0D206B35C400DF452B /* No Party For Cao DongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E81BDE6206B35C300DF452B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kamhongchan;
+				TargetAttributes = {
+					8E81BDED206B35C300DF452B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8E81BE01206B35C400DF452B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E81BDED206B35C300DF452B;
+					};
+					8E81BE0C206B35C400DF452B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E81BDED206B35C300DF452B;
+					};
+				};
+			};
+			buildConfigurationList = 8E81BDE9206B35C300DF452B /* Build configuration list for PBXProject "No Party For Cao Dong" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E81BDE5206B35C300DF452B;
+			productRefGroup = 8E81BDEF206B35C300DF452B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E81BDED206B35C300DF452B /* No Party For Cao Dong */,
+				8E81BE01206B35C400DF452B /* No Party For Cao DongTests */,
+				8E81BE0C206B35C400DF452B /* No Party For Cao DongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E81BDEC206B35C300DF452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E81BDFC206B35C300DF452B /* LaunchScreen.storyboard in Resources */,
+				8E81BDF9206B35C300DF452B /* Assets.xcassets in Resources */,
+				8E81BDF7206B35C300DF452B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E81BE00206B35C400DF452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E81BE0B206B35C400DF452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E81BDEA206B35C300DF452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E81BDF4206B35C300DF452B /* ViewController.swift in Sources */,
+				8E81BDF2206B35C300DF452B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E81BDFE206B35C400DF452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E81BE07206B35C400DF452B /* No_Party_For_Cao_DongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E81BE09206B35C400DF452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E81BE12206B35C400DF452B /* No_Party_For_Cao_DongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E81BE04206B35C400DF452B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E81BDED206B35C300DF452B /* No Party For Cao Dong */;
+			targetProxy = 8E81BE03206B35C400DF452B /* PBXContainerItemProxy */;
+		};
+		8E81BE0F206B35C400DF452B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E81BDED206B35C300DF452B /* No Party For Cao Dong */;
+			targetProxy = 8E81BE0E206B35C400DF452B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E81BDF5206B35C300DF452B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E81BDF6206B35C300DF452B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E81BDFA206B35C300DF452B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E81BDFB206B35C300DF452B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E81BE14206B35C400DF452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E81BE15206B35C400DF452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E81BE17206B35C400DF452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQT8TWWMBL;
+				INFOPLIST_FILE = "No Party For Cao Dong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamhongchan.No-Party-For-Cao-Dong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E81BE18206B35C400DF452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQT8TWWMBL;
+				INFOPLIST_FILE = "No Party For Cao Dong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamhongchan.No-Party-For-Cao-Dong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E81BE1A206B35C400DF452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "No Party For Cao DongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamhongchan.No-Party-For-Cao-DongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/No Party For Cao Dong.app/No Party For Cao Dong";
+			};
+			name = Debug;
+		};
+		8E81BE1B206B35C400DF452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "No Party For Cao DongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamhongchan.No-Party-For-Cao-DongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/No Party For Cao Dong.app/No Party For Cao Dong";
+			};
+			name = Release;
+		};
+		8E81BE1D206B35C400DF452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "No Party For Cao DongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamhongchan.No-Party-For-Cao-DongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "No Party For Cao Dong";
+			};
+			name = Debug;
+		};
+		8E81BE1E206B35C400DF452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "No Party For Cao DongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamhongchan.No-Party-For-Cao-DongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "No Party For Cao Dong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E81BDE9206B35C300DF452B /* Build configuration list for PBXProject "No Party For Cao Dong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E81BE14206B35C400DF452B /* Debug */,
+				8E81BE15206B35C400DF452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E81BE16206B35C400DF452B /* Build configuration list for PBXNativeTarget "No Party For Cao Dong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E81BE17206B35C400DF452B /* Debug */,
+				8E81BE18206B35C400DF452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E81BE19206B35C400DF452B /* Build configuration list for PBXNativeTarget "No Party For Cao DongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E81BE1A206B35C400DF452B /* Debug */,
+				8E81BE1B206B35C400DF452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E81BE1C206B35C400DF452B /* Build configuration list for PBXNativeTarget "No Party For Cao DongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E81BE1D206B35C400DF452B /* Debug */,
+				8E81BE1E206B35C400DF452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E81BDE6206B35C300DF452B /* Project object */;
+}
